@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(122, 132, 133);
+}
+input[type="button"] {
+  color: white;
+  border-radius: 2px;
+  background-image: linear-gradient(180deg, blue, cyan);
+  width: 100%;
+  min-width: 40px;
+  border-color: rgb(67, 130, 192);
+}
+input[type="button"]:hover {
+  color: white;
+  border-radius: 2px;
+  background-image: linear-gradient(180deg, red, orange);
+  width: 100%;
+  border-color: rgb(67, 130, 192);
+}
+/* how is the css can we go to js //what about the buttons on the left // lemme try something*/
+/* what about now? //iko sawa sasa//okay lets now go to html first we give the buttons action ndio tuende js "onclick ..." you know what i mean//yeah defin🙄itely okay ... to the html now..*/
+input[type="text"] {
+  width: 100%;
+  background: rgb(255, 251, 251);
+  text-align: right;
+  border-color: black;
+  border-radius: 10px;
+}
